@@ -10,7 +10,7 @@
   <img alt="ảnh" src="https://img.shields.io/badge/dữ%20liệu-224%20ảnh-12b3a8">
   <img alt="python" src="https://img.shields.io/badge/python-3.9–3.13-3776ab">
   <img alt="gpu" src="https://img.shields.io/badge/GPU-chỉ%20để%20train-2fbf71">
-  <a href="https://colab.research.google.com/github/VinUni-AI20k/K5-L23-Day09-AutoQC-Pipeline-Lab/blob/main/notebooks/day09_train_compare.ipynb"><img alt="Mở trong Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+  <a href="https://colab.research.google.com/github/lto7777777/K5-L23-Day09-2A202603330-AutoQC-Pipeline-Lab/blob/main/notebooks/day09_train_compare.ipynb"><img alt="Mở trong Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 </p>
 
 > **Máy kiểm quy tắc, người kiểm ý nghĩa.** Bạn xây một pipeline chạy bằng MỘT lệnh, rồi **đo** (số liệu, trung thực) xem nó có ích không.
@@ -41,7 +41,6 @@ Bạn sẽ **tự viết 4 module** (`label_format`, `second_opinion`, `autofix`
 4. `make run` (kết luận Release/Hold/Rework). **Tùy chọn, chấm riêng 15 điểm:** push rồi train trên Colab ([docs/COLAB.md](docs/COLAB.md), ~20 phút chạy nền).
 5. Viết `submission/REPORT.md` (1–2 trang), `make check-core` hết LỖI → nộp (đã train thì `make check`).
 
-> **Khi nộp:** đổi dòng tiêu đề README thành `# Day 09 Lab — <Họ và tên>: <MSHV> - <Họ và tên>`.
 > Windows không có `make`: chạy thẳng lệnh `python ...` trong [Makefile](Makefile). Mã thoát `python -m pipeline.run`: 0 Release · 10 Hold · 20 Rework · 30 tạm dừng chờ người duyệt.
 
 <details>
