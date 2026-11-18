@@ -1,0 +1,19 @@
+{
+  "verdict": {
+    "decision": "Hold",
+    "n_errors": 0,
+    "n_warn_images": 38,
+    "n_images": 202,
+    "warn_ratio": 0.1881,
+    "reasons": [
+      "38/202 ảnh (18.8%) còn cảnh báo chưa qua mắt người >= ngưỡng 10%",
+      "người đã duyệt 80 ảnh; mẫu số là 202 ảnh trong dataset"
+    ]
+  },
+  "reviewed": 80,
+  "budget": 80,
+  "seconds": 7.9,
+  "exported": "D:\\AIA\\day9\\lab9\\submission\\export\\clean_v1",
+  "config_sha1": "6af2dc99572f2be3ec51dd66ca55a0b2a7dbc1cc",
+  "review_sim_sha1": "7988ca22827f780a7043a2300490e679a1697154"
+}
